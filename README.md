@@ -5,8 +5,11 @@ A dynamic code analyzer for Java Language
 This project requires:
 
 IntelliJ IDEA: https://www.jetbrains.com/idea/download/#section=windows
+
 ANTLR: https://www.antlr.org/download.html
+
 Java Grammar: https://github.com/antlr/grammars-v4/tree/master/java/java
+
 Doxygen: https://www.doxygen.nl/index.html
 
 # Output
