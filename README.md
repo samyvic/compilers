@@ -1,16 +1,17 @@
 # compiler
  A dynamic code analyzer for Java Language
 
-# Dependencies
 This project requires:
 
 IntelliJ IDEA: https://www.jetbrains.com/idea/download/#section=windows
+
 ANTLR: https://www.antlr.org/download.html
+
 Java Grammar: https://github.com/antlr/grammars-v4/tree/master/java/java
+
 Doxygen: https://www.doxygen.nl/index.html
 
 # Output
-
 ![output](https://user-images.githubusercontent.com/47760339/167013273-de49205a-7f20-4176-b890-0447c03fcbc3.png)
 
 
