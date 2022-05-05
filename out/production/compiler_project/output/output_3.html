@@ -1,0 +1,128 @@
+<html> 
+<head> 
+<style>
+ body{background: chartreuse;}
+ pre{background : lightsalmon}
+#block_0{background:chartreuse}
+#block_1{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_1{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_2{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_1{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_2{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_1{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_1{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_2{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_1{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_5{background:chartreuse}
+#block_0{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_1{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_4{background:chartreuse}
+#block_2{background:chartreuse}
+</style>
+ </head>
+ <body>
+package tests;<br><br>public class t_3 {<br>    public static void main(String[] args) {<br>        int number = 34;<br>        boolean flag = false;<br>         <pre id='block_0'>for (int i = 2; i <= number / 2; ++i) {<br><br>            // condition for i to be a prime number<br>             <pre id='block_1'>if (checkPrime(i)) {<br><br>                // condition for n-i to be a prime number<br>                 <pre id='block_2'>if (checkPrime(number - i)) {<br><br>                    // n = primeNumber1 + primeNumber2<br>                    System.out.printf("%d = %d + %d\n", number, i, number - i);<br>                    flag = true;<br>                }</pre><br><br>            }</pre><br>        }</pre><br><br>         <pre id='block_3'>if (!flag)<br>            System.out.println(number + " cannot be expressed as the sum of two prime numbers.");</pre><br>    }<br><br>    // Function to check prime number<br>    static boolean checkPrime(int num) {<br>        boolean isPrime = true;<br><br>         <pre id='block_4'>for (int i = 2; i <= num / 2; ++i) {<br>             <pre id='block_5'>if (num % i == 0) {<br>                isPrime = false;<br>                break;<br>            }</pre><br>        }</pre><br><br>        return isPrime;<br>    }<br>}<br></body> 
+</html> 
