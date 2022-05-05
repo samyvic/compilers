@@ -1,4 +1,4 @@
-// Generated from /home/ahmed/IdeaProjects/grammar/src/JavaParser.g4 by ANTLR 4.9.2
+// Generated from D:/comproject/compiler-main\JavaParser.g4 by ANTLR 4.9.2
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**
@@ -507,6 +507,12 @@ public interface JavaParserVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitStatement(JavaParser.StatementContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link JavaParser#elseStatement}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitElseStatement(JavaParser.ElseStatementContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link JavaParser#catchClause}.
 	 * @param ctx the parse tree
